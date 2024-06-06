@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "to login valid username and valid password",
+        "description": "",
+        "id": "to-login-facebook-application;to-login-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3436123600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To configure the browser",
+            "match": {
+              "location": "StepDefinition.to_configure_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2575476000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch application",
+            "match": {
+              "location": "StepDefinition.to_launch_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 722315000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To enter valid username on email textbox",
+            "match": {
+              "location": "StepDefinition.to_enter_valid_username_on_email_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182434800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "to enter valid password on password textbox",
+            "match": {
+              "location": "StepDefinition.to_enter_valid_password_on_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80342800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To click login button",
+            "match": {
+              "location": "StepDefinition.to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114917400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To close the browser",
+            "match": {
+              "location": "StepDefinition.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To login facebook application",
+    "description": "",
+    "id": "to-login-facebook-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/91958/eclipse-workspace/NewCucumber/src/test/resources/Facebook/Facebookpro.feature",
+    "tags": []
+  }
+]
